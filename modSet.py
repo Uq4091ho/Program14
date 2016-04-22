@@ -10,7 +10,7 @@ class CustomSet:
 
    def __str__(self):
         """
-        Description: returns a string, Coded by  Jared Lidenberg
+        Description: returns a string, Coded by  Jared Lidenberg.
         Pre-Conditions: none
         Post-Conditions: converts attributes into str's for printing
         """
