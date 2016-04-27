@@ -45,3 +45,13 @@ class CustomSet:
             if not ele in s1:
                 return False
         return True
+   def __len__(self):
+        """
+        Description: returns a boolean, Coded by  Jared Lidenberg.
+        Pre-Conditions: self and secList must be sets
+        Post-Conditions: none
+        """
+        count = 0
+        for ele in self:
+            count += 1
+        return count
